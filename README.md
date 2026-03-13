@@ -7,20 +7,21 @@ The code in this repository focuses on learning and experimenting with core prog
 
 ---
 
-## Topics Covered
+# Topics Covered
 
 The programs in this repository demonstrate:
 
-### Core Python Concepts
+## Core Python Concepts
 
 * Variables and basic data types
 * Arithmetic expressions
 * Conditional statements (`if`, `elif`, `else`)
 * Basic input/output operations
+* User input handling
 
 ---
 
-### Lists
+## Lists
 
 * Python Lists
 * Basic list creation and indexing
@@ -36,27 +37,30 @@ The programs in this repository demonstrate:
 
 ---
 
-### Dictionaries
+## Dictionaries
 
 * Dictionary data structure (`{key: value}`)
 * Accessing dictionary values using keys
 * Updating dictionary values
 * Adding new key-value pairs
 * Removing elements using `pop()`
+* Retrieving values using `get()`
 * Iterating through:
 
   * Keys
   * Values
   * Key–value pairs using `.items()`
-* Understanding duplicate key behavior in dictionaries
+* Understanding duplicate key behavior
 
 ---
 
-### Strings
+## Strings
 
 * String indexing and slicing
 * Searching using `find()`
 * Joining strings using `join()`
+* Removing duplicate characters
+* String reversal using loops
 * Case conversion methods:
 
   * `lower()`
@@ -67,7 +71,7 @@ The programs in this repository demonstrate:
 
 ---
 
-### String Validation Methods
+## String Validation Methods
 
 * `isalnum()`
 * `isalpha()`
@@ -81,7 +85,7 @@ The programs in this repository demonstrate:
 
 ---
 
-### Formatting and Output
+## Formatting and Output
 
 * String formatting using `format()`
 * Named placeholders in formatting
@@ -90,17 +94,36 @@ The programs in this repository demonstrate:
 
 ---
 
-### Loops
+## Loops
 
-* `for` loops
-* Nested loops
-* Iteration over lists and dictionaries
+### For Loops
+
+* Iterating over lists
+* Iterating over dictionaries
+* Nested `for` loops
+
+### While Loops
+
+* Loop-based user authentication
+* Loop-based calculations
+* Incremental iteration
 
 ---
 
-## Example Programs Included
+## Pattern Printing
+
+* Numeric pattern printing
+* Alphabet pattern printing using ASCII (`chr()`)
+* Star (`*`) pattern programs
+* Nested loop based pattern generation
+
+---
+
+# Example Programs Included
 
 Some of the exercises included in this repository:
+
+### List Programs
 
 * Basic list creation and indexing
 * List slicing examples
@@ -112,26 +135,59 @@ Some of the exercises included in this repository:
 * Sorting lists
 * Identity and memory address examples
 * Membership operator examples
+
+---
+
+### Loop-Based Programs
+
 * Multiplication table using nested loops
+* Sum of first **N natural numbers**
+* Nested loop number patterns
+* Alphabet pattern printing
+* Star pattern printing
+
+---
+
+### String-Based Programs
+
+* Vowel and consonant counter
+* Removing duplicate characters from a string
+* Reversing a string using loops
+* Palindrome string checker
+* Anagram checker between two strings
+
+---
+
+### Dictionary Programs
+
+* Creating and printing dictionaries
+* Updating dictionary values
+* Adding new key-value pairs
+* Removing key-value pairs
+* Accessing values using `.get()`
+
+---
+
+### Conditional Programs
+
 * Checking if a number is positive, negative, or zero
-* Checking if a day is a weekday or weekend
+* Checking if a day is weekday or weekend
 * Student marks calculator (total, percentage, eligibility check)
 * Grade calculator using `if-elif-else`
-* Dictionary creation and manipulation
-* Dictionary iteration (keys, values, items)
-* String slicing and indexing examples
-* String searching using `find()`
-* Joining multiple strings using `join()`
-* String case conversion demonstrations
-* Checking string properties using built-in validation methods
-* Vowel and consonant counter in a string
+
+---
+
+### Miscellaneous Programs
+
+* Simple username/password authentication loop
+* Shopping cart filtering using `continue`
 * Arithmetic expression evaluation
 * List comparison examples
 * Formatted student result display
 
 ---
 
-## Purpose of This Repository
+# Purpose of This Repository
 
 This repository acts as:
 
@@ -142,7 +198,7 @@ This repository acts as:
 
 ---
 
-## Notes
+# Notes
 
 The code is intentionally simple and beginner-friendly as it was written while learning Python fundamentals in class.
 
