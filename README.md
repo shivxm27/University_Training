@@ -3,7 +3,7 @@
 This repository contains basic Python programs written during university programming classes.
 It serves as a collection of small practice programs and examples used to understand fundamental Python concepts.
 
-The code in this repository focuses on learning and experimenting with core programming ideas such as lists, dictionaries, strings, loops, conditions, and simple problem solving.
+The code in this repository focuses on learning and experimenting with core programming ideas such as lists, dictionaries, strings, loops, conditions, and problem solving.
 
 ---
 
@@ -21,7 +21,7 @@ The programs in this repository demonstrate:
 
 ---
 
-## Lists
+## Lists & Arrays
 
 * Python Lists
 * Basic list creation and indexing
@@ -34,6 +34,14 @@ The programs in this repository demonstrate:
 * Memory address checking using `id()`
 * Membership operators (`in`, `not in`)
 * Identity concept
+
+### Array-Based Problem Solving
+
+* Finding common elements in multiple arrays
+* Moving zeros to the end of an array (maintaining order)
+* Finding largest and second largest elements
+* Running sum of array elements
+* Sum of distances between adjacent elements
 
 ---
 
@@ -61,6 +69,7 @@ The programs in this repository demonstrate:
 * Joining strings using `join()`
 * Removing duplicate characters
 * String reversal using loops
+* Counting whitespaces and special characters
 * Case conversion methods:
 
   * `lower()`
@@ -98,47 +107,43 @@ The programs in this repository demonstrate:
 
 ### For Loops
 
-* Iterating over lists
+* Iterating over lists and strings
 * Iterating over dictionaries
 * Nested `for` loops
 
 ### While Loops
 
-* Loop-based user authentication
-* Loop-based calculations
-* Incremental iteration
+* Loop-based user authentication system
+* Loop-based calculations (sum of N numbers)
 
 ---
 
 ## Pattern Printing
 
-* Numeric pattern printing
-* Alphabet pattern printing using ASCII (`chr()`)
+* Numeric patterns
+* Alphabet patterns using ASCII (`chr()`)
 * Star (`*`) pattern programs
-* Nested loop based pattern generation
+* Nested loop-based pattern generation
 
 ---
 
 # Example Programs Included
 
-Some of the exercises included in this repository:
-
-### List Programs
+## List & Array Programs
 
 * Basic list creation and indexing
 * List slicing examples
-* Adding elements using `append()` and `insert()`
-* Removing elements using `remove()` and `del`
-* Copying lists
-* Nested list access
-* List multiplication and concatenation
+* Adding/removing elements
 * Sorting lists
-* Identity and memory address examples
-* Membership operator examples
+* Finding second largest element
+* Moving zeros to end of array
+* Running sum of array
+* Sum of adjacent distances
+* Finding common elements across arrays
 
 ---
 
-### Loop-Based Programs
+## Loop-Based Programs
 
 * Multiplication table using nested loops
 * Sum of first **N natural numbers**
@@ -148,41 +153,39 @@ Some of the exercises included in this repository:
 
 ---
 
-### String-Based Programs
+## String-Based Programs
 
-* Vowel and consonant counter
 * Removing duplicate characters from a string
 * Reversing a string using loops
-* Palindrome string checker
-* Anagram checker between two strings
+* Counting whitespaces and special characters
+* Palindrome checker
+* Anagram checker
 
 ---
 
-### Dictionary Programs
+## Dictionary Programs
 
 * Creating and printing dictionaries
 * Updating dictionary values
-* Adding new key-value pairs
-* Removing key-value pairs
+* Adding/removing key-value pairs
 * Accessing values using `.get()`
 
 ---
 
-### Conditional Programs
+## Conditional Programs
 
 * Checking if a number is positive, negative, or zero
-* Checking if a day is weekday or weekend
-* Student marks calculator (total, percentage, eligibility check)
-* Grade calculator using `if-elif-else`
+* Checking weekday/weekend
+* Grade calculator (`if-elif`)
+* HackerEarth "Roy and Profile Picture" problem
 
 ---
 
-### Miscellaneous Programs
+## Miscellaneous Programs
 
-* Simple username/password authentication loop
+* Username/password authentication system
 * Shopping cart filtering using `continue`
 * Arithmetic expression evaluation
-* List comparison examples
 * Formatted student result display
 
 ---
@@ -194,7 +197,7 @@ This repository acts as:
 * A personal archive of university programming exercises
 * A quick reference for beginner Python concepts
 * A practice space for experimenting with small code snippets
-* A simple record of classroom programming examples
+* A record of problem-solving practice (basic DSA-style questions)
 
 ---
 
@@ -202,4 +205,4 @@ This repository acts as:
 
 The code is intentionally simple and beginner-friendly as it was written while learning Python fundamentals in class.
 
-These programs are mainly focused on understanding syntax and basic programming logic rather than building full applications.
+These programs are mainly focused on understanding syntax, logic building, and basic problem solving rather than building full applications.
